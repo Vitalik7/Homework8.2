@@ -84,3 +84,57 @@ hr.right {
   font-size: 13px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 550px) {
+  .services {
+    height: 910px;
+  }
+
+  hr.left {
+    margin-top: 4%;
+  }
+
+  hr.right {
+    margin-top: 4%;
+    left: 52%;
+  }
+
+  .dot {
+    margin-top: 4%;
+  }
+
+  .block1 {
+    width: 80%;
+    margin-top: 7%;
+  }
+
+  .block2 {
+    width: 80%;
+  }
+
+  .block3 {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .services {
+    height: 950px;
+  }
+
+  hr.left {
+    margin-top: 5%;
+    left: 20%;
+    width: 27%;
+  }
+
+  hr.right {
+    margin-top: 5%;
+    left: 54%;
+    width: 25%;
+  }
+
+  .dot {
+    margin-top: 4.5%;
+  }
+}

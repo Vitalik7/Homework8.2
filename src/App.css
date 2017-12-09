@@ -1,174 +1,34 @@
 div {
   max-width: 1920px;
 }
-header.App {
-  position: relative;
-  width: 100%;
-  height: 111px;
-  background: #ff575d;
-}
-
-.logo:before {
-  content: url('https://cdn1.savepice.ru/uploads/2017/12/2/1a5f572210c6feaa74e9bc99847a2abd-full.png');
-  display: block;
-  position: relative;
-  right: 5px;
-  float: left;
-}
-
-.logo {
-  float: left;
-  width: auto;
-  margin: 0;
-  margin-left: 20%;
-  margin-top: 1%;
-  color: #e8e8e8;
-  font-family: Quicksand;
-  font-size: 45px;
-  font-weight: 300;
-}
-.logo-text {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  float: left;
-  width: auto;
-  color: #e8e8e8;
-  font-family: Quicksand;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.nav {
-  float: right;
-  width: 48%;
-  margin-top: 2%;
-
-}
-
-.nav-btn {
-  float: left;
-  padding: 1%;
-  margin-left: 3%;
-  text-decoration: none;
-  text-align: center;
-  color: #e8e8e8;
-  font-family: Quicksand;
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.active {
-  padding: 1%;
-  background-color: #fc7d7d;
-  border-radius: 6px;
-}
-
-.main-btn {
-  float: left;
-  position: relative;
-  padding: 2%;
-  padding-left: 4%;
-  padding-right: 4%;
-  margin-right: 5%;
-  border: 2px solid #ff5959;
-  border-radius: 10px;
-  color: #ffffff;
-  font-family: "Droid Sans";
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.asset {
-  padding: 2%;
-  padding-left: 4%;
-  padding-right: 4%;
-  background-color: #ff5959;;
-  border-radius: 10px;
-}
-
-.main-content {
-  height: 760px;
-}
-.main-img {
-  position: absolute;
-  width: 100%;
-  height: 760px;
- filter: blur(7px);
-
-}
-
-.content {
-  position: relative;
-  width: 25%;
-  top: 25%;
-  left: 25%;
-  margin-left: 0;
-  color: #ffffff;
-  font-family: Quicksand;
-  font-size: 17px;
-  font-weight: 400;
-}
-
-.content h2 {
-  margin-bottom: 0;
-  font-family: "Droid Sans";
-  font-size: 72px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.content h3 {
-  margin: 0;
-  font-family: "Droid Sans";
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.content p {
-  margin-top: 0;
-  font-size: 15px;
-
-}
-
-.content-img {
-  position: relative;
-  float: right;
-  right: 24%;
-  top: -4%;
-}
-
 .portfolio  {
   height: 903px;
-  margin-top: -1%;
+  margin-top: -5%;
   background: #ff575d;
 }
 
 .our-team {
   height: 757px;
-  margin-top: -1%;
+  margin-top: -5%;
   background: #e8e8e8;
 }
 
 .blog {
   height: 720px;
-  margin-top: -1%;
+  margin-top: -5%;
   background: #ff575d;
 
 }
 
 .contact-us {
   height: 553px;
-  margin-top: -1%;
+  margin-top: -5%;
   background: #e8e8e8;
 }
 
 .footer {
   height: 115px;
-  margin-top: -1%;
+  margin-top: -5%;
   margin-bottom: 0;
   background: #ff575d;
   color: #e8e8e8;
@@ -182,86 +42,4 @@ header.App {
   position: relative;
   top: 45%;
   font-style: normal;
-}
-
-
-@media screen and (max-width: 1770px) {
-  .content-img {
-    right: 20%;
-  }
-
-  .content {
-    width: 25%;
-    left: 15%;
-  }
-}
-
-@media screen and (max-width: 1550px) {
-  .content-img {
-    right: 10%;
-  }
-
-  .content {
-    width: 350px;
-    left: 10%;
-  }
-  .content h2 {
-    font-size: 50px;
-  }
-  .content h3 {
-    font-size: 20px;
-  }
-}
-
-@media screen and (max-width: 1050px) {
-  .content-img {
-    right: 0%;
-  }
-
-  .content {
-    left: 10%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .content-img {
-    float: left;
-    margin-left: 20%;
-    width: 60%;
-    top: 30%;
-  }
-
-  .content {
-    width: 50%;
-    left: 25%;
-  }
-}
-
-@media screen and (max-width: 520px) {
-  .content-img {
-    float: left;
-    margin-left: 10%;
-    width: 80%;
-    top: 30%;
-  }
-
-  .content {
-    width: 90%;
-    left: 5%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .content-img {
-    float: left;
-    margin-left: 5%;
-    width: 90%;
-    top: 30%;
-  }
-
-  .content {
-    top: 15%;
-    width: 100%;
-    left: 0;
-  }
 }
