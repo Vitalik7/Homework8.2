@@ -4,7 +4,10 @@ class Portfolio extends  Component {
   render () {
     return (
       <div className='portfolio'>
-        <p>portfolio page</p>
+        <h1>Our Portfolio</h1>
+        <hr className='left'/>
+        <span className='dot'></span>
+        <hr className='right'/>
       </div>
     )
   }

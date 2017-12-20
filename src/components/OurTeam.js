@@ -4,7 +4,10 @@ class OurTeam extends  Component {
   render () {
     return (
       <div className='our-team'>
-        <p>OurTeam page</p>
+        <h1>Our Wonderful Team</h1>
+        <hr className='left'/>
+        <span className='dot'></span>
+        <hr className='right'/>
       </div>
     )
   }
