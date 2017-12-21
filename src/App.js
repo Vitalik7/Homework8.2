@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { HashRouter} from 'react-router-dom'
+import { HashRouter} from 'react-router-dom';
 
 import './App.css';
-import './style/Services.css'
-import './style/Home.css'
+import './style/Services.css';
+import './style/Home.css';
+import './style/Portfolio.css';
 
 // import scrollToComponent from 'react-scroll-to-component'
 // import Scroll from 'react-scroll'

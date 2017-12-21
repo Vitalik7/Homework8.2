@@ -18,8 +18,10 @@ div {
 }
 
 .portfolio {
-  height: 903px;
+  height: 100%;
   background: #ff575d;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .our-team {
@@ -45,8 +47,11 @@ h1 {
   line-height: 49.01px;
 }
 
-.portfolio h1{
-  top: 4%;
+.portfolio h1,
+.portfolio hr.left,
+.portfolio hr.right,
+.portfolio .dot {
+  margin: 0;
 }
 
 hr.left {
@@ -117,10 +122,6 @@ hr.right {
 }
 
 @media screen and (max-width: 550px) {
-  .services {
-    height: 910px;
-  }
-
   hr.left {
     margin-top: 4%;
   }
@@ -133,26 +134,9 @@ hr.right {
   .dot {
     margin-top: 4%;
   }
-
-  .block1 {
-    width: 80%;
-    margin-top: 7%;
-  }
-
-  .block2 {
-    width: 80%;
-  }
-
-  .block3 {
-    width: 80%;
-  }
 }
 
 @media screen and (max-width: 320px) {
-  .services {
-    height: 950px;
-  }
-
   hr.left {
     margin-top: 5%;
     left: 20%;
