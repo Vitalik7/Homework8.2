@@ -41,7 +41,7 @@ h1 {
   position: relative;
   top: 5%;
   color: #000000;
-  font-family: Quicksand;
+  font-family: 'Quicksand';
   font-size: 30px;
   font-weight: 400;
   line-height: 49.01px;
@@ -113,7 +113,7 @@ hr.right {
   margin-bottom: 0;
   background: #ff575d;
   color: #e8e8e8;
-  font-family: Quicksand;
+  font-family: 'Quicksand';
   font-size: 13px;
   font-weight: 400;
   text-align: center;

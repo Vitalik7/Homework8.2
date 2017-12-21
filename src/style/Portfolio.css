@@ -23,15 +23,17 @@ a.imagesPortfolio p,
     left: 0;
     right: 0;
     margin: auto;
+    cursor: pointer;
 }
 
 a.imagesPortfolio p {
     top: 40%;
     left: -8%;
     color: white;
-    font-family: Quicksand;
+    font-family: 'Quicksand';
     font-size: 24px;
     font-weight: bold;
+    font-style: normal;
 }
 
 .star,
@@ -60,7 +62,11 @@ a.imagesPortfolio p {
 .firstRow a.imagesPortfolio:hover p,
 .secondRow a.imagesPortfolio:hover p,
 a.imagesPortfolio:hover .star,
-a.imagesPortfolio:hover .favorites {
+a.imagesPortfolio:hover .favorites,
+.firstRow a.imagesPortfolio:focus p,
+.secondRow a.imagesPortfolio:focus p,
+a.imagesPortfolio:focus .star,
+a.imagesPortfolio:focus .favorites{
     display: inline-block;
 }
 
