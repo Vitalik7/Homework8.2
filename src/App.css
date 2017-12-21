@@ -54,6 +54,7 @@ h1 {
 .portfolio hr.left,
 .portfolio hr.right,
 .portfolio .dot {
+  margin-top: 1%;
   margin-bottom: 0;
 }
 
