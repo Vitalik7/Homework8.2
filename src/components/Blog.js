@@ -4,7 +4,10 @@ class Blog extends  Component {
   render () {
     return (
       <div className='blog'>
-        <p>Blog page</p>
+        <h1>The Latest News</h1>
+        <hr className='left'/>
+        <span className='dot'></span>
+        <hr className='right'/>
       </div>
     )
   }
