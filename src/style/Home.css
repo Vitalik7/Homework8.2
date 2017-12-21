@@ -109,12 +109,14 @@ header.App {
   font-weight: 400;
 }
 
-.content h2 {
+.content h2, a {
   margin-bottom: 0;
   font-family: "Droid Sans";
-  font-size: 72px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .content h3 {
