@@ -1,0 +1,90 @@
+.team {
+    width: 1170px;
+    margin: auto;
+    padding-top: 5%;
+}
+
+.teamInfo {
+    display: inline-block;
+    width: 25%;
+}
+
+.foto {
+    border-radius: 268px;
+    border: 5px solid #e8e8e8;
+}
+
+.name {
+    font-family: 'Quicksand';
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.position {
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin: 0;
+}
+
+.shortInfo {
+    font-family: 'Quicksand';
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.social {
+    height: 24px;
+}
+
+.twitter,
+.pinterest,
+.facebook,
+.google,
+.linkedln {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background: url("../images/social.png") no-repeat;
+    margin-right: 7px;
+}
+
+.twitter {
+    background-position: 0px 0px;
+}
+
+.pinterest {
+    background-position: -24px 0px;
+}
+
+.facebook {
+    background-position: -48px 0px;
+}
+
+.google {
+    background-position: -72px 0px;
+}
+
+.linkedln {
+    background-position: -96px 0px;
+}
+
+@media screen and (max-width: 550px) {
+    .out-team {
+        padding-bottom: 5%;
+    }
+
+    .team {
+        width: auto;
+        margin-top: 10%;
+    }
+
+    .teamInfo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
