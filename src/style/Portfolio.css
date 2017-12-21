@@ -20,6 +20,12 @@
         padding-bottom: 5%;
     }
 
+    .portfolio hr.left,
+    .portfolio hr.right,
+    .portfolio .dot {
+        margin: 0;
+    }
+
     .firstRow {
         margin-bottom: 5%;
     }
