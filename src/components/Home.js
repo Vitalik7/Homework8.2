@@ -20,7 +20,7 @@ class Home extends  Component {
         <main className='main-content'>
            <img className='main-img' alt='' src={'http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png'}/>
            <div className='content'>
-               <h2><a href='#'>One page</a></h2>
+            <h2>One page </h2>
             <h3>Is all that you need</h3>  
             <p>
               Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet felis.

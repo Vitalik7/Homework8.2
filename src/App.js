@@ -1,11 +1,12 @@
-import React, { Component } from 'react';
-import { HashRouter} from 'react-router-dom';
+import React, { Component } from 'react'
+import { HashRouter} from 'react-router-dom'
 
-import './App.css';
-import './style/Services.css';
-import './style/Home.css';
-import './style/Portfolio.css';
-import './style/OurTeam.css';
+import './App.css'
+import './style/Services.css'
+import './style/Home.css'
+import './style/Portfolio.css'
+import './style/OurTeam.css'
+import './css/main.css'
 
 // import scrollToComponent from 'react-scroll-to-component'
 // import Scroll from 'react-scroll'
@@ -32,7 +33,7 @@ class App extends Component {
           <p className='footer'> <i> &#169; Copyright 2013 By Projex - All rights Reserved</i> </p>
         </div>
       </HashRouter>
-    );
+    )
   }
 }
 

@@ -55,10 +55,6 @@ header.App {
   font-weight: 700;
 }
 
-.nav-btn:hover {
-  text-decoration: underline;
-}
-
 .active {
   padding: 1%;
   background-color: #fc7d7d;
@@ -82,8 +78,7 @@ header.App {
   text-decoration: none;
 }
 
-.asset,
-.main-btn:hover {
+.asset {
   padding: 2%;
   padding-left: 4%;
   padding-right: 4%;
@@ -114,15 +109,12 @@ header.App {
   font-weight: 400;
 }
 
-.content h2,
-a {
+.content h2 {
   margin-bottom: 0;
   font-family: "Droid Sans";
-  font-size: 62px;
+  font-size: 72px;
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .content h3 {
