@@ -1,5 +1,4 @@
 .team {
-    width: 1170px;
     margin: auto;
     padding-top: 5%;
 }
@@ -35,6 +34,8 @@
     font-family: 'Quicksand';
     font-size: 13px;
     font-weight: 400;
+    width: 50%;
+    margin: auto;
 }
 
 .social {
@@ -73,18 +74,26 @@
     background-position: -96px 0px;
 }
 
-@media screen and (max-width: 550px) {
+
+
+@media screen and (max-width: 1100px) {
     .out-team {
         padding-bottom: 5%;
     }
 
     .team {
         width: auto;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
     .teamInfo {
-        width: 100%;
+        width: 50%;
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .teamInfo {
+        width: 100%;
     }
 }
