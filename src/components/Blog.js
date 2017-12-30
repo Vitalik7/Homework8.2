@@ -14,7 +14,7 @@ class Blog extends Component {
                             <img className='blog-img' alt=''
                                  src={'http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png'}/>
                             <h4>Theme HotelDeluxe Released</h4>
-                            <span>15th September, 21:24</span>
+                            <span><i></i>15th September, 21:24</span>
                             <p>Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum
                                 ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien.
                                 Pellentesque vitae ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet
@@ -22,14 +22,14 @@ class Blog extends Component {
                                 Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae
                                 ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at
                                 consequat nulla. Nulla luctus dapibus nulla...</p>
-                            <a href='/#'><i></i> Dan Aase</a>
-                            <a href='/#'><i></i>21 Comments</a>
+                            <a href='/#'><i className="person"></i> Dan Aase</a>
+                            <a href='/#'><i className="comment"></i>21 Comments</a>
                         </li>
                         <li className="block">
                             <img className='blog-img' alt=''
                                  src={'http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png'}/>
                             <h4>Theme HotelDeluxe Released</h4>
-                            <span>15th September, 21:24</span>
+                            <span><i></i>15th September, 21:24</span>
                             <p>Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum
                                 ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien.
                                 Pellentesque vitae ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet
@@ -37,14 +37,14 @@ class Blog extends Component {
                                 Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae
                                 ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at
                                 consequat nulla. Nulla luctus dapibus nulla...</p>
-                            <a href='/#'><i></i> Dan Aase</a>
-                            <a href='/#'><i></i>21 Comments</a>
+                            <a href='/#'><i className="person"></i> Dan Aase</a>
+                            <a href='/#'><i className="comment"></i>21 Comments</a>
                         </li>
                         <li className="block">
                             <img className='blog-img' alt=''
                                  src={'http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png'}/>
                             <h4>Theme HotelDeluxe Released</h4>
-                            <span>15th September, 21:24</span>
+                            <span><i></i>15th September, 21:24</span>
                             <p>Nunc vitae euismod orci, sit amet hendrerit est. Nulla id ipsum rhoncus, porttitor ipsum
                                 ut, tempus libero. Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien.
                                 Pellentesque vitae ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet
@@ -52,8 +52,8 @@ class Blog extends Component {
                                 Morbi eget justo gravida, ornare ipsum interdum, imperdiet sapien. Pellentesque vitae
                                 ipsum dui. Vivamus a dolor urna. Cras posuere eros eu odio aliquet tincidunt. Sed at
                                 consequat nulla. Nulla luctus dapibus nulla...</p>
-                            <a href='/#'><i></i> Dan Aase</a>
-                            <a href='/#'><i></i>21 Comments</a>
+                            <a href='/#'><i className="person"></i> Dan Aase</a>
+                            <a href='/#'><i className="comment"></i>21 Comments</a>
                         </li>
                     </ul>
                 </div>

@@ -6,7 +6,7 @@ class Home extends  Component {
     return (
       <div className='home'>
         <header className='App'>
-            <h1 className='logo'><a href='/'>ProJex  </a></h1>
+            <h1 className='logo'><a href='/'>ProJex</a></h1>
           <p className='logo-text'>One Page Business Theme</p>
           <nav className='nav'>
             <NavLink className='nav-btn' activeClassName='active' to='/home'>Home</NavLink>
