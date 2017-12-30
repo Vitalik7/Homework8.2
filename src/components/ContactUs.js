@@ -4,16 +4,15 @@ class ContactUs extends Component {
     render() {
         return (
             <div className='contact-us'>
-                <div className="wraper">
                     <h1>Contact Us</h1>
                     <hr className='left'/>
                     <span className='dot'></span>
                     <hr className='right'/>
-                    <div>
+                    <div className='contacts'>
                         <div className="contact-form">
                             <input type="text" name="browser" placeholder="Full Name"/>
                             <input type="text" name="browser" placeholder="E-mail Adress"/>
-                            <input type="text" name="browser" placeholder="Message" className="textarea"/>
+                            <textarea className="textarea" placeholder="Message"></textarea>
                         </div>
                         <div className="information-block">
                             <h4>Information</h4>
@@ -25,14 +24,13 @@ class ContactUs extends Component {
                                 ultrices faucibus. Proin sit amet condimentum libero, ac dignissim enim. Praesent
                                 aliquam lacinia dapibus.
                             </p>
-                            <span>StreetName 163, 254 23 City</span>
-                            <span className="phone">(+254) 001 454 333 66</span>
+                            <span className="address"><i></i>StreetName 163, 254 23 City</span>
+                            <span className="phone"><i></i>(+254) 001 454 333 66</span>
 
                             <a href="/#" className="send">SEND MESSAGE</a>
                             <a href="/#" className="view">VIEW MAP</a>
                         </div>
                     </div>
-                </div>
             </div>
         )
     }

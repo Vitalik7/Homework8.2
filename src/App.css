@@ -39,6 +39,10 @@ ul {
   height: 553px;
 }
 
+.contact-us h1 {
+  margin: 2% 0;
+}
+
 h1 {
   position: relative;
   top: 2%;

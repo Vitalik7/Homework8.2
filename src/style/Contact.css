@@ -1,3 +1,8 @@
+.contacts {
+    width: 1200px;
+    margin: auto;
+}
+
 .contact-us h3 {
     padding-top: 3%;
     text-align: center;
@@ -7,77 +12,102 @@
     line-height: 49.01px;
 }
 
-.contact-us .line-container {
+.line-container {
     text-align: center;
     padding-bottom: 5%;
 }
 
-.contact-us .line-container .left {
+.line-container .left {
     border-color: black;
     margin-top: 0;
 }
 
-.contact-us .line-container .dot {
+.line-container .dot {
     background-color: black;
     margin-top: 0;
 }
 
-.contact-us .line-container .right {
+.line-container .right {
     border-color: black;
     margin-top: 0;
 }
 
-.contact-us .contact-form {
+.contact-form {
     width: 45%;
     display: inline-block;
     float: left;
     margin-top: 5%;
 }
 
-.contact-us .contact-form input {
+.contact-form input,
+.contact-form .textarea {
     width: 100%;
-    padding: 10px 0 10px 15px;
+    padding: 10px;
     border-radius: 5px;
     border: none;
     margin-bottom: 15px;
+    font-size: 13px;
+    font-family: 'Quicksand';
+    font-weight: 500;
 }
 
-.contact-us .contact-form .textarea {
-    padding: 15px 0 100px 15px;
+.contact-form .textarea {
+    height: 160px;
 }
 
-.contact-us .information-block {
+.information-block {
     width: 45%;
+    background: url("../images/arrow.png") no-repeat 46% 70%;
     display: inline-block;
     margin-top: 5%;
-    float: right;
     text-align: left;
 }
 
-.contact-us .information-block h4 {
+.information-block h4 {
     font-size: 24px;
     font-family: 'Quicksand';
     font-weight: 400;
     margin: 0;
+    line-height: 1em;
 }
 
-.contact-us .information-block p {
-    font-size: 16px;
+.information-block p {
+    font-size: 13px;
     font-family: 'Quicksand';
     font-weight: 300;
 }
 
-.contact-us .information-block span {
-    font-weight: 400;
+.information-block span {
+    font-weight: 500;
     display: block;
     font-size: 13px;
+    font-family: 'Quicksand';
+    margin-bottom: 10px;
 }
 
-.contact-us .information-block .phone {
-    margin-bottom: 40px;
+.information-block  span i {
+    background: url("../images/icon.png") no-repeat bottom;
+    display: inline-block;
+    margin-right: 15px;
 }
 
-.contact-us .information-block .send {
+.information-block .phone {
+    margin-bottom: 35px;
+}
+
+.information-block .phone i {
+    background-position: -55px 0;
+    height: 14px;
+    width: 12px;
+}
+
+.information-block .address i{
+    background-position: -44px 0;
+    height: 16px;
+    width: 11px;
+}
+
+.information-block .send {
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;
@@ -87,16 +117,17 @@
     padding: 10px 15px;
     border-radius: 10px;
     margin-right: 5%;
+    display: inline-block;
 }
 
-.contact-us .information-block .send:hover {
+.information-block .send:hover {
     background-color: transparent;
     border: 2px solid #ff5959;
     padding: 8px 13px;
     color: #ff5959;
 }
 
-.contact-us .information-block .view {
+.information-block .view {
     background-color: transparent;
     border: 2px solid #ff5959;
     color: #ff5959;
@@ -106,9 +137,82 @@
     font-size: 16px;
     padding: 10px 15px;
     border-radius: 10px;
+    width: 120px;
+    height: 14px;
+    display: inline-block;
+    text-align: center;
 }
 
-.contact-us .information-block .view:hover {
+.information-block .view:hover {
     background-color: #ff5959;
     color: white;
+}
+
+@media screen and (max-width: 1060px) {
+    .contacts {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+    .information-block {
+        margin-left: 2%;
+        background: none;
+    }
+
+    .information-block p {
+        height: 105px;
+        overflow: hidden;
+    }
+
+    .information-block .send {
+        margin-right: 3%;
+    }
+
+    .information-block .view {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .contact-us {
+        height: 450px;
+    }
+
+    .information-block .phone {
+        margin-bottom: 10px;
+    }
+
+    .information-block .send {
+        display: block;
+        width: 129px;
+        margin-bottom: 10px;
+    }
+
+    .information-block p {
+        height: 90px;
+    }
+
+    .information-block span i {
+        margin-right: 5px;
+    }
+
+    .information-block {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-us {
+       height: 700px;
+    }
+    .contact-form {
+        width: 95%;
+    }
+    .information-block {
+        width: 95%;
+    }
+
+    .information-block .send {
+        display: inline-block;
+    }
 }

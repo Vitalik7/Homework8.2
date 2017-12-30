@@ -4,7 +4,6 @@ class Blog extends Component {
     render() {
         return (
             <div className='blog'>
-                <div className="wraper">
                     <h1>The Latest News</h1>
                     <hr className='left'/>
                     <span className='dot'></span>
@@ -56,7 +55,6 @@ class Blog extends Component {
                             <a href='/#'><i className="comment"></i>21 Comments</a>
                         </li>
                     </ul>
-                </div>
             </div>
         )
     }
