@@ -15,7 +15,7 @@ class ContactUs extends Component {
                             <input type="text" name="browser" placeholder="E-mail Adress"/>
                             <input type="text" name="browser" placeholder="Message" className="textarea"/>
                         </div>
-                        <div class="information-block">
+                        <div className="information-block">
                             <h4>Information</h4>
                             <p>
                                 Proin nec dignissim tellus, ut hendrerit erat. Vivamus ut augue ac est sagittis
@@ -28,8 +28,8 @@ class ContactUs extends Component {
                             <span>StreetName 163, 254 23 City</span>
                             <span className="phone">(+254) 001 454 333 66</span>
 
-                            <a href="#" className="send">SEND MESSAGE</a>
-                            <a href="#" className="view">VIEW MAP</a>
+                            <a href="/#" className="send">SEND MESSAGE</a>
+                            <a href="/#" className="view">VIEW MAP</a>
                         </div>
                     </div>
                 </div>

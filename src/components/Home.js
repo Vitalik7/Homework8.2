@@ -6,8 +6,8 @@ class Home extends  Component {
     return (
       <div className='home'>
         <header className='App'>
-          <h1 className='logo'> ProJex   </h1>
-          <p className='logo-text'> One Page Business Theme </p>
+            <h1 className='logo'><a href='/'>ProJex</a></h1>
+          <p className='logo-text'>One Page Business Theme</p>
           <nav className='nav'>
             <NavLink className='nav-btn' activeClassName='active' to='/home'>Home</NavLink>
             <NavLink className='nav-btn' activeClassName='active' to='/services'>Services</NavLink>
@@ -18,9 +18,8 @@ class Home extends  Component {
           </nav>
         </header>
         <main className='main-content'>
-           <img className='main-img' alt='' src={'http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png'}/>
            <div className='content'>
-            <h2>One page </h2>
+            <h2>One page</h2>
             <h3>Is all that you need</h3>  
             <p>
               Suspendisse mi nisl, adipiscing sit amet tellus sed, auctor aliquet felis.

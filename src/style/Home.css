@@ -24,6 +24,12 @@ header.App {
   font-size: 45px;
   font-weight: 300;
 }
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo-text {
   position: absolute;
   top: 50%;
@@ -55,7 +61,8 @@ header.App {
   font-weight: 700;
 }
 
-.active {
+.active,
+.nav-btn:hover {
   padding: 1%;
   background-color: #fc7d7d;
   border-radius: 6px;
@@ -78,7 +85,8 @@ header.App {
   text-decoration: none;
 }
 
-.asset {
+.asset,
+.main-btn:hover {
   padding: 2%;
   padding-left: 4%;
   padding-right: 4%;
@@ -88,13 +96,9 @@ header.App {
 
 .main-content {
   height: 760px;
-}
-.main-img {
-  position: absolute;
-  width: 100%;
-  height: 760px;
- filter: blur(7px);
-
+  background: url("http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png") top no-repeat;
+  background-size: cover;
+  margin-top: -3.5%;
 }
 
 .content {
@@ -139,6 +143,10 @@ header.App {
 }
 
 @media screen and (max-width: 1770px) {
+  .main-content {
+    margin-top: -5%;
+  }
+
   .content-img {
     right: 20%;
   }
@@ -147,6 +155,7 @@ header.App {
     width: 25%;
     left: 15%;
   }
+
 }
 
 @media screen and (max-width: 1550px) {
@@ -181,6 +190,9 @@ header.App {
 }
 
 @media screen and (max-width: 900px) {
+  .main-content {
+    margin-top: -10%;
+  }
   .content-img {
     float: left;
     margin-left: 20%;
@@ -208,6 +220,14 @@ header.App {
     bottom: 8%;
     float: left;
     width: 100%;
+  }
+
+  .main-content {
+    margin-top: -15%;
+  }
+
+  .main-btn {
+      margin-bottom: 20px;
   }
 }
 
