@@ -4,7 +4,7 @@ class Services extends  Component {
   render () {
     return (
       <div className='services'>
-        <h1> Our Services </h1>
+        <h1>Our Services</h1>
          <hr className='left'/>
          <span className='dot'></span>
          <hr className='right'/>

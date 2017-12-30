@@ -42,7 +42,7 @@ h3 {
 
 @media screen and (max-width: 550px) {
   .services {
-    height: 910px;
+    height: 950px;
   }
 
   .block1 {
@@ -59,8 +59,3 @@ h3 {
   }
 }
 
-@media screen and (max-width: 320px) {
-  .services {
-    height: 950px;
-  }
-}
