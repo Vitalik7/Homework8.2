@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './App.css'
@@ -16,6 +16,7 @@ import Blog from './components/Blog'
 import ContactUs from './components/ContactUs'
 
 class App extends Component {
+
     render() {
         return (
             <div>
