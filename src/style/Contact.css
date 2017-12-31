@@ -148,7 +148,7 @@
     color: white;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 1150px) {
     .contacts {
         width: auto;
         margin: 0 auto;
@@ -173,7 +173,7 @@
     }
 }
 
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 600px) {
     .contact-us {
         height: 450px;
     }
@@ -201,12 +201,13 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     .contact-us {
        height: 700px;
     }
     .contact-form {
         width: 95%;
+        margin-top: 10%;
     }
     .information-block {
         width: 95%;

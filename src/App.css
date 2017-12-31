@@ -1,5 +1,5 @@
 ul {
-  padding:  0;
+    padding: 0;
 }
 
 .services,
@@ -7,145 +7,156 @@ ul {
 .our-team,
 .blog,
 .contact-us {
-  width: 100%;
-  padding-top: 3%;
-  text-align: center;
-  background: #e8e8e8;
+    width: 100%;
+    padding-top: 3%;
+    text-align: center;
+    background: #e8e8e8;
 }
+
 .services {
-  height: 550px;
-  margin-top: -1%;
+    height: 550px;
+    margin-top: -1%;
 }
 
 .portfolio {
-  height: 100%;
-  background: #ff575d;
-  padding-bottom: 10%;
+    height: 100%;
+    background: #ff575d;
+    padding-bottom: 10%;
 }
 
 .our-team {
-  height: 100%;
-  margin: 0;
-  padding-top: 3%;
-  padding-bottom: 10%;
+    height: 100%;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 10%;
 }
 
 .blog {
-  padding-bottom: 70px;
-  background: #ff575d;
+    padding-bottom: 70px;
+    background: #ff575d;
 }
 
 .contact-us {
-  height: 553px;
+    height: 553px;
 }
 
 .contact-us h1 {
-  margin: 2% 0;
+    margin: 2% 0;
 }
 
 h1 {
-  position: relative;
-  top: 2%;
-  margin: 1% 0;
-  color: #000000;
-  font-family: 'Quicksand';
-  font-size: 30px;
-  font-weight: 400;
+    position: relative;
+    top: 2%;
+    margin: 1% 0;
+    color: #000000;
+    font-family: 'Quicksand';
+    font-size: 30px;
+    font-weight: 400;
 }
+
 .services h1 {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 hr.left {
-  position: absolute;
-  left: 36%;
-  float: left;
-  width: 13%;
-  margin: 0;
-  border: 1px solid gray;
+    position: absolute;
+    left: 36%;
+    float: left;
+    width: 13%;
+    margin: 0;
+    border: 1px solid gray;
 }
 
 .dot {
-  display: inline-block;
-  position: absolute;
-  margin: -0.2% 0 0;
-  height: 6px;
-  width: 6px;
-  background-color: black;
-  border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin: -0.2% 0 0;
+    height: 6px;
+    width: 6px;
+    background-color: black;
+    border-radius: 50%;
 }
 
 hr.right {
-  position: absolute;
-  left: 51.5%;
-  float: right;
-  width: 13%;
-  margin: 0;
-  border: 1px solid gray;
+    position: absolute;
+    left: 51.5%;
+    float: right;
+    width: 13%;
+    margin: 0;
+    border: 1px solid gray;
 }
 
 .portfolio h1,
-.blog h1{
-  color: #ffffff;
+.blog h1 {
+    color: #ffffff;
 }
 
 .portfolio hr.left,
 .blog hr.left,
 .portfolio hr.right,
 .blog hr.right {
-  border-color: #ffffff;
+    border-color: #ffffff;
 }
 
 .portfolio .dot,
 .blog .dot {
-  background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .footer {
-  height: 115px;
-  margin-top: -5%;
-  margin-bottom: 0;
-  background: #ff575d;
-  color: #e8e8e8;
-  font-family: 'Quicksand';
-  font-size: 13px;
-  font-weight: 400;
-  text-align: center;
+    height: 115px;
+    margin-top: -5%;
+    margin-bottom: 0;
+    background: #ff575d;
+    color: #e8e8e8;
+    font-family: 'Quicksand';
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
 }
 
 .footer i {
-  position: relative;
-  top: 45%;
-  font-style: normal;
+    position: relative;
+    top: 45%;
+    font-style: normal;
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 24px;
-  }
+    h1 {
+        font-size: 24px;
+    }
 
-  hr.left {
-    margin-top: 1%;
-  }
+    hr.left {
+        margin-top: 1%;
+    }
 
-  hr.right {
-    margin-top: 1%;
-    left: 52%;
-  }
+    hr.right {
+        margin-top: 1%;
+        left: 52%;
+    }
 
-  .dot {
-    margin-top: 0.8%;
-  }
+    .dot {
+        margin-top: 0.8%;
+    }
 }
 
-@media screen and (max-width: 400px) {
-  hr.right {
-    left: 53%;
-    width: 25%;
-  }
+@media screen and (max-width: 320px) {
+    hr.right {
+        left: 53%;
+        width: 25%;
+    }
 
-  hr.left {
-    left: 21%;
-    width: 27%;
-  }
+    hr.left {
+        left: 21%;
+        width: 27%;
+    }
+
+    .contact-us hr.right,
+    .contact-us hr.left {
+        margin-top: 5%;
+    }
+
+    .contact-us .dot {
+        margin-top: 4.8%
+    }
 }

@@ -179,30 +179,18 @@ header.App {
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .content-img {
-    right: 0%;
-  }
-
-  .content {
-    left: 10%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .main-content {
-    margin-top: -10%;
-  }
+@media screen and (max-width: 1060px) {
   .content-img {
     float: left;
     margin-left: 20%;
     width: 60%;
     top: 30%;
+    right: 0%;
   }
 
   .content {
     width: 50%;
-    left: 25%;
+    left: 20%;
   }
 }
 
@@ -229,9 +217,7 @@ header.App {
   .main-btn {
       margin-bottom: 20px;
   }
-}
 
-@media screen and (max-width: 520px) {
   .content-img {
     float: left;
     margin-left: 10%;
@@ -267,6 +253,9 @@ header.App {
   .content {
     top: 15%;
     width: 100%;
-    left: 0;
+  }
+
+  .content p {
+    font-size: 13px;
   }
 }
