@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor, { configureAnchors } from 'react-scrollable-anchor'
 
 import './App.css'
 import './style/Services.css'
@@ -16,6 +16,9 @@ import Blog from './components/Blog'
 import ContactUs from './components/ContactUs'
 
 class App extends Component {
+    componentWillMount() {
+        configureAnchors({offset: 10, scrollDuration: 200})
+    }
 
     render() {
         return (
