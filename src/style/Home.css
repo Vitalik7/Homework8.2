@@ -61,8 +61,8 @@ header.App {
   font-weight: 700;
 }
 
-.active,
-.nav-btn:hover {
+.nav-btn:hover,
+.nav-btn:active{
   padding: 1%;
   background-color: #fc7d7d;
   border-radius: 6px;
@@ -85,7 +85,7 @@ header.App {
   text-decoration: none;
 }
 
-.asset,
+.main-btn:active,
 .main-btn:hover {
   padding: 2%;
   padding-left: 4%;
