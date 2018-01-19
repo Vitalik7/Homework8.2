@@ -24,6 +24,12 @@ header.App {
   font-size: 45px;
   font-weight: 300;
 }
+
+.logo a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .logo-text {
   position: absolute;
   top: 50%;
@@ -55,7 +61,8 @@ header.App {
   font-weight: 700;
 }
 
-.active {
+.nav-btn:hover,
+.nav-btn:active{
   padding: 1%;
   background-color: #fc7d7d;
   border-radius: 6px;
@@ -78,7 +85,8 @@ header.App {
   text-decoration: none;
 }
 
-.asset {
+.main-btn:active,
+.main-btn:hover {
   padding: 2%;
   padding-left: 4%;
   padding-right: 4%;
@@ -88,13 +96,9 @@ header.App {
 
 .main-content {
   height: 760px;
-}
-.main-img {
-  position: absolute;
-  width: 100%;
-  height: 760px;
- filter: blur(7px);
-
+  background: url("http://i.aquarel-art.ru/u/94/d4675e8e0111e59f04d3413aabcfe8/-/Beiersdorf-Sotrudniki-9-Beiersdorf.png") top no-repeat;
+  background-size: cover;
+  margin-top: -3.5%;
 }
 
 .content {
@@ -139,6 +143,10 @@ header.App {
 }
 
 @media screen and (max-width: 1770px) {
+  .main-content {
+    margin-top: -5%;
+  }
+
   .content-img {
     right: 20%;
   }
@@ -147,6 +155,7 @@ header.App {
     width: 25%;
     left: 15%;
   }
+
 }
 
 @media screen and (max-width: 1550px) {
@@ -170,27 +179,18 @@ header.App {
   }
 }
 
-@media screen and (max-width: 1050px) {
-  .content-img {
-    right: 0%;
-  }
-
-  .content {
-    left: 10%;
-  }
-}
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
   .content-img {
     float: left;
     margin-left: 20%;
     width: 60%;
     top: 30%;
+    right: 0%;
   }
 
   .content {
     width: 50%;
-    left: 25%;
+    left: 20%;
   }
 }
 
@@ -209,9 +209,15 @@ header.App {
     float: left;
     width: 100%;
   }
-}
 
-@media screen and (max-width: 520px) {
+  .main-content {
+    margin-top: -15%;
+  }
+
+  .main-btn {
+      margin-bottom: 20px;
+  }
+
   .content-img {
     float: left;
     margin-left: 10%;
@@ -247,6 +253,9 @@ header.App {
   .content {
     top: 15%;
     width: 100%;
-    left: 0;
+  }
+
+  .content p {
+    font-size: 13px;
   }
 }

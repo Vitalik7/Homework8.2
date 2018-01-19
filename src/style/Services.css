@@ -40,9 +40,9 @@ h3 {
   font-weight: 400;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .services {
-    height: 910px;
+    height: 950px;
   }
 
   .block1 {
@@ -61,6 +61,7 @@ h3 {
 
 @media screen and (max-width: 320px) {
   .services {
-    height: 950px;
+    height: 980px;
   }
 }
+

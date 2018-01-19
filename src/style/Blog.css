@@ -1,0 +1,107 @@
+.blog ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    text-align: left;
+    width: 1200px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.block {
+    width: 25%;
+    list-style-type: none;
+}
+
+.blog ul .block h4 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 2%;
+    font-family: 'Quicksand';
+}
+
+.blog ul .block span {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.block span i,
+.comment,
+.person {
+    background: url("../images/icon.png") no-repeat bottom;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.block span i {
+    background-position: 0 0;
+    height: 14px;
+    width: 13px;
+}
+
+.comment {
+    background-position: -28px 0;
+    height: 13px;
+    width: 16px;
+}
+
+.person {
+    background-position: -13px 0;
+    height: 14px;
+    width: 15px;
+}
+
+.blog ul .block p {
+    font-size: 13px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    color: white;
+    height: 195px;
+    overflow: hidden;
+}
+
+.blog ul .block .blog-img {
+    width: 100%;
+}
+
+.blog ul .block a {
+    font-size: 13px;
+    font-family: 'Quicksand';
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+@media screen and (max-width: 1199px) {
+    .blog ul {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 1060px) {
+    .blog a {
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .block span i,
+    .comment,
+    .person {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .blog ul .block h4 {
+        font-size: 16px;
+    }
+}

@@ -8,44 +8,46 @@ class Portfolio extends Component {
                 <hr className='left'/>
                 <span className='dot'></span>
                 <hr className='right'/>
-                <div className='firstRow'>
-                    <a href='/#' className='imagesPortfolio'>
+                <ul className='firstRow'>
+                    <li className='imagesPortfolio'>
                         <img src={[require('../images/portfolio1.jpg')]} alt=""/>
                         <p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                    <a href='/#' className='imagesPortfolio'>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                    <li className='imagesPortfolio'>
                         <img src={[require('../images/portfolio2.jpg')]} alt=""/>
                         <p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                </div>
-                <div className='secondRow'>
-                    <a href='/#' className='imagesPortfolio'>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                </ul>
+                <ul className='secondRow'>
+                    <li className='imagesPortfolio'>
                         <img src={[require('../images/portfolio3.jpg')]} alt=""/>
                         <p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                    <a href='/#' className='imagesPortfolio'>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                    <li className='imagesPortfolio'>
                         <img src={[require('../images/portfolio4.jpg')]} alt=""/>
                         <p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                    <a href='/#' className='imagesPortfolio'><img src={[require('../images/portfolio3.jpg')]} alt=""/><p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                    <a href='/#'className='imagesPortfolio'>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                    <li className='imagesPortfolio'>
+                        <img src={[require('../images/portfolio3.jpg')]} alt=""/>
+                        <p>Love Conquers All</p>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                    <li className='imagesPortfolio'>
                         <img src={[require('../images/portfolio5.jpg')]} alt=""/>
                         <p>Love Conquers All</p>
-                        <a href='/#' className='favorites'></a>
-                        <a href='/#' className='star'></a>
-                    </a>
-                </div>
+                        <a href='/#' className='favorites'>favorites</a>
+                        <a href='/#' className='star'>star</a>
+                    </li>
+                </ul>
             </div>
         )
     }
